@@ -35,11 +35,11 @@
 		interrupts = <RK_PB2 IRQ_TYPE_LEVEL_LOW>;
 		irq-gpios = <&gpio2 RK_PB2 IRQ_TYPE_LEVEL_LOW>;
 		reset-gpios = <&gpio2 RK_PB5 GPIO_ACTIVE_HIGH>;
-		touchscreen-inverted-x;
+		//touchscreen-inverted-x;
 		//touchscreen-inverted-y;
-		touchscreen-swapped-x-y;
-		touchscreen-size-x = <1280>;
-		touchscreen-size-y = <800>;
+		//touchscreen-swapped-x-y;
+		touchscreen-size-x = <1080>;
+		touchscreen-size-y = <1920>;
 		status = "okay";
 	};
 };
